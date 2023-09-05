@@ -3,6 +3,8 @@ import Home from './Home'
 import NavBar from './NavBar'
 import About from './About'
 import Skills from './Skills'
+import Projects from './Projects'
+import Contact from './Contact'
 
 const Body = () => {
   return (
@@ -10,6 +12,8 @@ const Body = () => {
         <Home/>
         <About/>
         <Skills/>
+        <Projects/>
+        <Contact/>
     </>
   )
 }

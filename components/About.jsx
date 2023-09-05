@@ -17,8 +17,11 @@ const About = () => {
 
             <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                 <div class="sm:text-center lg:text-left">
+                    <h2 class="my-6 text-2xl tracking-tight text-orange-600 sm:text-2xl md:text-2xl">
+                        ABOUT ME
+                    </h2>
                     <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
-                        About me
+                        Who I am?
                     </h2>
 
                     <p>
