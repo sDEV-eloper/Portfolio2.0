@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { AiOutlineClose } from 'react-icons/ai';
 import { RxHamburgerMenu} from 'react-icons/rx';
 import Logo from "@/public/images/slogo_circle.png"
+import ProfileImg from "@/public/images/myGif.gif"
 import Image from 'next/image';
 
 
@@ -13,7 +14,7 @@ function NavBar() {
   return (
     <div>
       <nav className="w-full bg-white  fixed top-0 left-0 right-0 z-50">
-        <div className="justify-evenly  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        <div className="justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
             <div className="flex  items-center justify-between py-2 md:py-2 md:block">
               <Link href="/">
                 <div className='flex items-center justify-center gap-4'>
@@ -45,33 +46,36 @@ function NavBar() {
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className=" text-md text-gray-700 py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-gray-300  border-purple-900  md:hover:text-purple-600  md:hover:bg-transparent">
+                <li className=" text-md text-gray-700 py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-orange-500    md:hover:text-orange-500   md:hover:bg-transparent">
                   <Link href="/" onClick={() => setNavbar(!navbar)}>
                     Home
                   </Link>
                 </li>
-                <li className=" text-md text-gray-700 py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-gray-300  border-purple-900  md:hover:text-purple-600  md:hover:bg-transparent">
+                <li className=" text-md text-gray-700 py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-orange-500    md:hover:text-orange-500   md:hover:bg-transparent">
                   <Link href="/#about" onClick={() => setNavbar(!navbar)}>
                     About
                   </Link>
                 </li>
-                <li className=" text-md text-gray-700 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-gray-300  border-purple-900  md:hover:text-purple-600  md:hover:bg-transparent">
+                <li className=" text-md text-gray-700 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-orange-500    md:hover:text-orange-500   md:hover:bg-transparent">
                   <Link href="/#skills" onClick={() => setNavbar(!navbar)}>
                     Skills
                   </Link>
                 </li>
-                <li className=" text-md text-gray-700 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-gray-300  border-purple-900  md:hover:text-purple-600  md:hover:bg-transparent">
+                <li className=" text-md text-gray-700 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-orange-500    md:hover:text-orange-500   md:hover:bg-transparent">
                   <Link href="/#projects" onClick={() => setNavbar(!navbar)}>
                     Projects
                   </Link>
                 </li>
-                <li className=" text-md text-gray-700 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-gray-300  border-purple-900  md:hover:text-purple-600  md:hover:bg-transparent">
+                <li className=" text-md text-gray-700 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-orange-500    md:hover:text-orange-500   md:hover:bg-transparent">
                   <Link href="/#contact" onClick={() => setNavbar(!navbar)}>
                     Contact
                   </Link>
                 </li>
               </ul>
             </div>
+            <div className='hidden sm:hidden md:flex'>
+  <Image src={ProfileImg} alt="myprofile" width={40} className='rounded-full' />
+</div>
         </div>
       </nav>
     </div>
