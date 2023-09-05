@@ -1,7 +1,7 @@
 import html from "@/public/images/code_icon/html.png";
 import css from "@/public/images/code_icon/css.png";
 import js from "@/public/images/code_icon/js.png";
-import reactjs from "@/public/images/code_icon/react.png";
+import reactjs from "@/public/images/code_icon/reactjs.png";
 import c from "@/public/images/code_icon/c.png";
 import sql from "@/public/images/code_icon/sql.png";
 import java from "@/public/images/code_icon/java.png";
@@ -17,16 +17,19 @@ import typescript from "@/public/images/code_icon/typescript.png";
 import slack from "@/public/images/code_icon/slack.png";
 import git from "@/public/images/code_icon/git.png";
 import github from "@/public/images/code_icon/github2.png";
+import python from "@/public/images/code_icon/python.png";
+import langchain from "@/public/images/code_icon/langchain.jpg";
+
 
 export const skillsList = [
   {
     id: 1,
-    name: "HTML",
+    name: "HTML5",
     logo: html,
   },
   {
     id: 2,
-    name: "CSS",
+    name: "CSS3",
     logo: css,
   },
   {
@@ -49,11 +52,7 @@ export const skillsList = [
     name: "SASS",
     logo: sass,
   },
-  {
-    id: 13,
-    name: "STRAPI",
-    logo: strapi,
-  },
+ 
   {
     id: 7,
     name: "C",
@@ -64,11 +63,7 @@ export const skillsList = [
     name: "JAVA",
     logo: java,
   },
-  {
-    id: 11,
-    name: "NODEJS",
-    logo: nodejs,
-  },
+ 
   {
     id: 9,
     name: "SQL",
@@ -79,7 +74,21 @@ export const skillsList = [
     name: "NEXTJS",
     logo: nextjs,
   },
-
+  {
+    id: 11,
+    name: "NODEJS",
+    logo: nodejs,
+  },
+  {
+    id: 12,
+    name: "MONGODB",
+    logo: mongodb,
+  },
+  {
+    id: 13,
+    name: "STRAPI",
+    logo: strapi,
+  },
   {
     id: 14,
     name: "POSTMAN",
@@ -100,11 +109,7 @@ export const skillsList = [
     name: "BOOTSTRAP",
     logo: bootstrap,
   },
-  {
-    id: 12,
-    name: "MONGODB",
-    logo: mongodb,
-  },
+ 
   {
     id: 18,
     name: "GIT",
@@ -115,16 +120,25 @@ export const skillsList = [
     name: "GITHUB",
     logo: github,
   },
+  {
+    id: 20,
+    name: "PYTHON",
+    logo: python,
+  },
+  {
+    id: 21,
+    name: "LANGCHAIN",
+    logo: langchain,
+  },
 ];
 
 export const mainTech = skillsList.filter((skill) =>
   [
-    "HTML",
-    "CSS",
+    "HTML5",
+    "CSS3",
     "SASS",
     "TAILWIND CSS",
     "JAVASCRIPT",
-    "TYPESCRIPT", 
     "REACTJS",
     "NEXTJS",
     "GIT",
@@ -133,7 +147,7 @@ export const mainTech = skillsList.filter((skill) =>
 );
 
 export const familiarTech = skillsList.filter((skill) =>
-  ["BOOTSTRAP","C", "NODEJS", "SQL","POSTMAN"].includes(
+  ["BOOTSTRAP","C", "NODEJS", "SQL","POSTMAN", "PYTHON","LANGCHAIN", "TYPESCRIPT"].includes(
     skill.name
   )
 );

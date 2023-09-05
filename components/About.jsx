@@ -32,14 +32,14 @@ const About = () => {
                     </p>
                     <p className='border text-sm rounded-lg p-2 font-medium  bg-gray-200 my-3 '>
                         <FaGraduationCap/>I hold a Bachelor of Technology degree in Computer Science earned between 2019 and 2023.
-                        <span className='flex gap-2 items-center'>
+                        <span className='flex gap-2 items-center text-orange-500'>
                             <SlCalender/>
                             <span>2019-2023</span>
                         </span>
                         </p>
                     <p className='border text-sm rounded-lg p-2 font-medium  bg-gray-200 my-3 '>
                         <FaLaptopCode/>I am currently participating in a virtual internship at NetStack as a Frontend Developer, where I am working on building an automated dropshipping product.
-                        <span className='flex gap-2 items-center'>
+                        <span className='flex gap-2 items-center text-orange-500'>
                             <SlCalender/>
                             <span>May 2023 - Ongoing</span>
                         </span>

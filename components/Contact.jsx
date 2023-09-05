@@ -8,12 +8,12 @@ const Contact = () => {
           <div className="flex  bg-white px-16 py-12 flex-wrap -mx-4 lg:justify-between  bg-gradient-to-t from-gray-300 to-white">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0">
-              <h2 className=" text-2xl tracking-tight text-orange-600 sm:text-2xl md:text-2xl">
-            CONTACT
-          </h2>
-          <h2 className="my-4 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
-            GET IN TOUCH 
-          </h2>
+                <h2 className=" text-2xl tracking-tight text-orange-600 sm:text-2xl md:text-2xl">
+                  CONTACT
+                </h2>
+                <h2 className="my-4 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
+                  GET IN TOUCH
+                </h2>
                 <p className="text-base leading-relaxed mb-9 text-body-color">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eius tempor incididunt ut labore e dolore magna aliqua. Ut
@@ -32,7 +32,7 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark">
-                       Location
+                      Location
                     </h4>
                     <p className="text-base text-body-color">
                       Nainital, Uttarakhand, India
@@ -56,9 +56,7 @@ const Contact = () => {
                     <h4 className="mb-1 text-xl font-bold text-dark">
                       Phone Number
                     </h4>
-                    <p className="text-base text-body-color">
-                      9528394139
-                    </p>
+                    <p className="text-base text-body-color">9528394139</p>
                   </div>
                 </div>
                 <div className="mb-8 flex w-full max-w-[370px]">
@@ -77,13 +75,11 @@ const Contact = () => {
                       Email Address
                     </h4>
                     <p className="text-base text-body-color">
-                     thisissurajdev@gmail.com
+                      thisissurajdev@gmail.com
                     </p>
                   </div>
                 </div>
               </div>
-
-              
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="relative  p-4 md:p-6 rounded-lg shadow-lg sm:p-12 border bg-gray-200">
@@ -118,8 +114,7 @@ const Contact = () => {
                     </button>
                   </div>
                 </form>
-                <div>
-                </div>
+                <div></div>
               </div>
             </div>
           </div>
