@@ -56,17 +56,17 @@ function NavBar() {
                   </Link>
                 </li>
                 <li className=" text-md text-gray-700 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-gray-300  border-purple-900  md:hover:text-purple-600  md:hover:bg-transparent">
-                  <Link href="#blog" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/#skills" onClick={() => setNavbar(!navbar)}>
                     Skills
                   </Link>
                 </li>
                 <li className=" text-md text-gray-700 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-gray-300  border-purple-900  md:hover:text-purple-600  md:hover:bg-transparent">
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/#projects" onClick={() => setNavbar(!navbar)}>
                     Projects
                   </Link>
                 </li>
                 <li className=" text-md text-gray-700 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-gray-300  border-purple-900  md:hover:text-purple-600  md:hover:bg-transparent">
-                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/#contact" onClick={() => setNavbar(!navbar)}>
                     Contact
                   </Link>
                 </li>
