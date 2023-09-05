@@ -3,9 +3,9 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section id="contact" className="bg-orange-500 py-12  border overflow-hidden relative z-10">
+      <section id="contact" className="pt-10 overflow-hidden relative z-10">
         <div className="container">
-          <div className="flex border bg-white px-16 py-12 flex-wrap -mx-4 lg:justify-between">
+          <div className="flex  bg-white px-16 py-12 flex-wrap -mx-4 lg:justify-between  bg-gradient-to-t from-gray-300 to-white">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0">
               <h2 className=" text-2xl tracking-tight text-orange-600 sm:text-2xl md:text-2xl">
@@ -112,7 +112,7 @@ const Contact = () => {
                   <div>
                     <button
                       type="submit"
-                      className="w-full p-3 text-white transition border rounded border-primary bg-primary hover:bg-opacity-90 bg-gradient-to-t from-[#9218f0] to-[#2599fe]"
+                      className="w-full p-3 text-white active:scale-95 transition duration-150  rounded-lg  bg-gradient-to-t from-[#9218f0] to-[#2599fe] shadow-md shadow-gray-600 hover:bg-black"
                     >
                       Send Message
                     </button>
@@ -150,7 +150,7 @@ const ContactTextArea = ({ row, placeholder, name, defaultValue }) => {
 const ContactInputBox = ({ type, placeholder, name }) => {
   return (
     <>
-      <div className="mb-6">
+      <div className="mb-3">
         <input
           type={type}
           placeholder={placeholder}
