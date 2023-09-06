@@ -26,7 +26,7 @@ function StatusIndicator() {
   const statusColor = online ? 'green' : 'red';
 
   return (
-    <div className='flex items-center justify-center px-2 py-1 border border-blue-800 rounded-lg bg-white'>
+    <div className='flex items-center justify-center px-2 py-1  rounded-lg bg-white'>
         <label className='font-medium'>Fun Feature 🤩</label> 
         <div
       style={{
