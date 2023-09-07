@@ -39,31 +39,31 @@ function NavBar() {
           </div>
           <div
             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "p-12 md:p-0 block border " : "hidden"
+              navbar ? "p-12 md:p-0 block " : "hidden"
             }`}
           >
             <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-              <li className=" text-md text-gray-700 py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-orange-500    md:hover:text-orange-500   md:hover:bg-transparent">
+              <li className=" text-md text-gray-700 py-2 md:px-6 text-center hover:bg-orange-500 hover:text-white rounded-lg    md:hover:text-orange-500   md:hover:bg-transparent">
                 <Link href="/" onClick={() => setNavbar(!navbar)}>
                   Home
                 </Link>
               </li>
-              <li className=" text-md text-gray-700 py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-orange-500    md:hover:text-orange-500   md:hover:bg-transparent">
+              <li className=" text-md text-gray-700 py-2 md:px-6 text-center hover:bg-orange-500 hover:text-white rounded-lg    md:hover:text-orange-500   md:hover:bg-transparent">
                 <Link href="/#about" onClick={() => setNavbar(!navbar)}>
                   About
                 </Link>
               </li>
-              <li className=" text-md text-gray-700 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-orange-500    md:hover:text-orange-500   md:hover:bg-transparent">
+              <li className=" text-md text-gray-700 py-2 px-6 text-center  hover:bg-orange-500 hover:text-white rounded-lg    md:hover:text-orange-500   md:hover:bg-transparent">
                 <Link href="/#skills" onClick={() => setNavbar(!navbar)}>
                   Skills
                 </Link>
               </li>
-              <li className=" text-md text-gray-700 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-orange-500    md:hover:text-orange-500   md:hover:bg-transparent">
+              <li className=" text-md text-gray-700 py-2 px-6 text-center  hover:bg-orange-500 hover:text-white rounded-lg    md:hover:text-orange-500   md:hover:bg-transparent">
                 <Link href="/#projects" onClick={() => setNavbar(!navbar)}>
                   Projects
                 </Link>
               </li>
-              <li className=" text-md text-gray-700 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-orange-500    md:hover:text-orange-500   md:hover:bg-transparent">
+              <li className=" text-md text-gray-700 py-2 px-6 text-center  hover:bg-orange-500 hover:text-white rounded-lg    md:hover:text-orange-500   md:hover:bg-transparent">
                 <Link href="/#contact" onClick={() => setNavbar(!navbar)}>
                   Contact
                 </Link>
