@@ -2,7 +2,6 @@ import React from "react";
 import Logo from "@/public/images/slogo_circle.png";
 import Image from "next/image";
 import Link from "next/link";
-import { BsFillArrowUpSquareFill } from "react-icons/bs";
 import StatusIndicator from "./StatusIndicator";
 
 const Footer = () => {

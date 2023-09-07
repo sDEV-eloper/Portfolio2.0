@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import { FaGraduationCap, FaLaptopCode } from "react-icons/fa";
 import { SlCalender } from "react-icons/sl";
 

@@ -1,4 +1,4 @@
-import React from "react";
+
 import NavBar from "../components/NavBar";
 import Link from "next/link";
 import { BsDownload } from "react-icons/bs";

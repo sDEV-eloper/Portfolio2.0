@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import myImg from "@/public/images/3dskillboy.jpg";
-import Link from "next/link";
 import {familiarTech, mainTech}from './skillsConstants'
 
 const Skills = () => {
