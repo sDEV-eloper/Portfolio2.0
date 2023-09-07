@@ -4,7 +4,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section id="contact" class="bg-white dark:bg-gray-900">
+      <section id="contact" class="bg-gradient-to-t from-gray-300 dark:bg-gray-900">
         <div class="container px-6 py-12 mx-auto">
           <div class="text-center">
             <p class="font-medium text-orange-500  text-2xl uppercase dark:text-blue-400">

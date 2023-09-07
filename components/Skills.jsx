@@ -51,15 +51,6 @@ const Skills = () => {
                 </div>
                 ))}
               </div>
-              <div class="mt-8">
-                <Link
-                  href="#"
-                  class="text-blue-500 hover:text-blue-600 font-medium"
-                >
-                  Learn more about us
-                  <span class="ml-2">&#8594;</span>
-                </Link>
-              </div>
             </div>
           </div>
         </div>
