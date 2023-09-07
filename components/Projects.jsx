@@ -2,7 +2,6 @@
 import Image from "next/image";
 import { FaEye } from "react-icons/fa";
 import {BsGithub } from "react-icons/bs";
-import {GrCircleInformation} from "react-icons/gr";
 import{ projectsData} from "./projectConstant";
 import Link from "next/link";
 

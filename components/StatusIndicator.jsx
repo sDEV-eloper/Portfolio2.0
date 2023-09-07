@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 
 function StatusIndicator() {
-  const [online, setOnline] = useState(navigator.onLine);
+  const [online, setOnline] = useState(window.navigator.onLine);
 
   useEffect(() => {
     const handleOnline = () => {
