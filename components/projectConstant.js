@@ -1,7 +1,7 @@
 import vstreamImg from "@/public/images/code_icon/vstream.png";
 import letsChatImg from "@/public/images/code_icon/chatapp.png";
 import bookRecImg from "@/public/images/bookRec.jpg";
-import comingSoonImg from "@/public/images/commingSoon.png";
+import ramayanImg from "@/public/images/ramayanImg.png";
 import netflixImg from "@/public/images/code_icon/netflix.png"
 
 export const projectsData = [
@@ -24,6 +24,21 @@ export const projectsData = [
            "Authentication using Firebase" , "Validation", "Movie Recommendation using OpenAi Gpt-model", "Multilingual GPT Search bar" , "API"
         ]
    
+  },
+  {
+      title: "YouKnowRamayana",
+    backgroundImg: ramayanImg,
+    projectUrl: "https://youknowramayan.vercel.app/",
+    githubUrl: "https://github.com/sDEV-eloper/VStreamhttps://github.com/sDEV-eloper/doYouKnow_Ramayan",
+
+    tech: [
+        {name:"Html5"},
+        {name: "Tailwind CSS"},
+        {name: "Vanilla JavaScript"},
+      ],
+        features: [
+          "Score" , "Shuffle", "Notification", "Timer"  
+       ]
   },
   {
       title: "VStream",
