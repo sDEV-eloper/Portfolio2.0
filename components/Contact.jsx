@@ -3,25 +3,25 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <>
-      <section id="contact" class="bg-gradient-to-t from-gray-300 dark:bg-gray-900">
-        <div class="container px-6 py-12 mx-auto">
+      <section id="contact" class="bg-gray-300">
+        <div class="container px-6 py-4 mx-auto">
           <div class="text-center">
-            <p class="font-medium text-orange-500  text-2xl uppercase dark:text-blue-400">
+            <p class="font-medium text-orange-500  text-2xl uppercase">
               Contact us
             </p>
 
-            <h1 class="mt-2 text-2xl font-bold text-gray-800 md:text-4xl dark:text-white">
+            <h1 class="mt-2 text-2xl font-bold text-gray-800 md:text-4xl">
               Get in touch
             </h1>
 
-            <p class="mt-3 text-gray-500 dark:text-gray-400">
+            <p class="mt-3 text-gray-500">
               Anytime!
             </p>
           </div>
 
           <div class="grid grid-cols-1 gap-4 mt-10 md:grid-cols-2 lg:grid-cols-4">
             <div class="flex flex-col items-center justify-center text-center">
-              <span class="p-2 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800 active:scale-90 transition duration-150 hover:scale-110">
+              <span class="p-2 text-blue-500 rounded-full bg-white active:scale-90 transition duration-150 hover:scale-110">
               <Link href="mailto:thisissurajdev@gmail.com" >
                  <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -56,17 +56,17 @@ const Contact = () => {
                
               </span>
 
-              <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              <h2 class="mt-4 text-lg font-medium text-gray-800">
                 Gmail
               </h2>
-              <p class="mt-2 text-gray-500 dark:text-gray-400">
+              <p class="mt-2 text-gray-500 ">
                 thisissurajdev@gmail.com
               </p>
               
             </div>
 
             <div class="flex flex-col items-center justify-center text-center">
-              <span class="p-2 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800 active:scale-90 transition duration-150 hover:scale-110">
+              <span class="p-2 text-blue-500 rounded-full bg-white  active:scale-90 transition duration-150 hover:scale-110">
                 <Link href="https://wa.me/9528394139">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -102,17 +102,17 @@ const Contact = () => {
                 </Link>
               </span>
 
-              <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              <h2 class="mt-4 text-lg font-medium text-gray-800 ">
                 Whats app
               </h2>
-              <p class="mt-2 text-gray-500 dark:text-gray-400">
+              <p class="mt-2 text-gray-500 ">
              +91&#45;9528394139
               </p>
              
             </div>
 
             <div class="flex flex-col items-center justify-center text-center">
-              <span class="p-2 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800 active:scale-90 transition duration-150 hover:scale-110">
+              <span class="p-2 text-blue-500 rounded-full bg-white  active:scale-90 transition duration-150 hover:scale-110">
                  <Link href='https://www.linkedin.com/in/surajsingh09/'>
                  
                 <svg
@@ -134,17 +134,17 @@ const Contact = () => {
                 </svg>
               </Link>
               </span>
-              <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              <h2 class="mt-4 text-lg font-medium text-gray-800 ">
                 Linked In
               </h2>
-              <p class="mt-2 text-gray-500 dark:text-gray-400">
+              <p class="mt-2 text-gray-500 ">
                 @surajsingh09
               </p>
               
             </div>
 
             <div class="flex flex-col items-center justify-center text-center">
-              <span class="p-2 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800 active:scale-90 transition duration-150 hover:scale-110">
+              <span class="p-2 text-blue-500 rounded-full bg-white  active:scale-90 transition duration-150 hover:scale-110">
                <Link href='https://github.com/sDEV-eloper'>
                
                 <svg
@@ -160,10 +160,10 @@ const Contact = () => {
                 </Link>
               </span>
 
-              <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              <h2 class="mt-4 text-lg font-medium text-gray-800 ">
                 Github
               </h2>
-              <p class="mt-2 text-gray-500 dark:text-gray-400">
+              <p class="mt-2 text-gray-500 ">
              @sDEV-eloper
               </p>
 

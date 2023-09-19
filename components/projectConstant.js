@@ -12,6 +12,7 @@ export const projectsData = [
     projectUrl: "https://ainetflix.netlify.app/",
     githubUrl:"https://github.com/sDEV-eloper/Netflixx-GPT",
     tech: [
+      //why don't here is an array of name? ans: dues due to i want to add their logo in future for each tech skills thats why
       {name: "OpenAI Tool"},
         {name:"React JS"},
         {name: "Tailwind CSS"},
@@ -25,21 +26,7 @@ export const projectsData = [
         ]
    
   },
-  {
-      title: "YouKnowRamayana",
-    backgroundImg: ramayanImg,
-    projectUrl: "https://youknowramayan.vercel.app/",
-    githubUrl: "https://github.com/sDEV-eloper/VStreamhttps://github.com/sDEV-eloper/doYouKnow_Ramayan",
-
-    tech: [
-        {name:"Html5"},
-        {name: "Tailwind CSS"},
-        {name: "Vanilla JavaScript"},
-      ],
-        features: [
-          "Score" , "Shuffle", "Notification", "Timer"  
-       ]
-  },
+ 
   {
       title: "VStream",
     backgroundImg: vstreamImg,
@@ -53,6 +40,20 @@ export const projectsData = [
           "Category based Suggestion" , "Search Bar", "Responsive", "API"  
        ]
   },
+  {
+    title: "YouKnowRamayana",
+  backgroundImg: ramayanImg,
+  projectUrl: "https://youknowramayan.vercel.app/",
+  githubUrl: "https://github.com/sDEV-eloper/VStreamhttps://github.com/sDEV-eloper/doYouKnow_Ramayan",
+  tech: [
+      {name:"Html"},
+      {name: "Tailwind CSS"},
+      {name: "Vanilla JavaScript"},
+    ],
+      features: [
+        "Score" , "Shuffle", "Notification", "Timer"  
+     ]
+},
   {
     title: "Let's Chat",
     backgroundImg: letsChatImg,
