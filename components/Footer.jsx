@@ -7,7 +7,7 @@ import StatusIndicator from "./StatusIndicator";
 const Footer = () => {
   return (
     <>
-      <footer class="text-gray-600 body-font bg-gray-200  border-gray-800">
+      <footer class="text-gray-600 body-font bg-gray-300  border-gray-800">
         <div class="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
           <Link
             href="/"

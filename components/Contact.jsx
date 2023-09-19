@@ -3,11 +3,11 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <>
-      <section id="contact" class="bg-gray-300">
+      <section id="contact" class="bg-gray-200">
         <div class="container px-6 py-4 mx-auto">
           <div class="text-center">
             <p class="font-medium text-orange-500  text-2xl uppercase">
-              Contact us
+              Contact Me
             </p>
 
             <h1 class="mt-2 text-2xl font-bold text-gray-800 md:text-4xl">
