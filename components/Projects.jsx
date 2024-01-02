@@ -47,6 +47,7 @@ const Projects = () => {
                     <div className="flex items-center flex-wrap gap-4 ">
                      {item?.projectUrl && <Link
                         href={item?.projectUrl}
+                        target="_blank"
                         className="text-indigo-500 flex items-center md:mb-2 lg:mb-0"
                       >
                        <span className="text-white bg-gradient-to-t from-[#7b14ca] to-[#2951d4]  flex  items-center gap-2  rounded-lg px-2 py-1 shadow-md shadow-gray-400 active:scale-90 "> 
@@ -56,6 +57,7 @@ const Projects = () => {
                       </Link>}
                       <Link
                         href={item.githubUrl}
+                        target="_blank"
                         className="text-indigo-500 flex items-center md:mb-2 lg:mb-0 "
                       >
                        <span className="text-white bg-black flex items-center gap-2 border border-gray-500 rounded-lg px-2 py-1 shadow-md shadow-gray-400 active:scale-90"> 

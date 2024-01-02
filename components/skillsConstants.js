@@ -142,12 +142,13 @@ export const mainTech = skillsList.filter((skill) =>
     "REACTJS",
     "NEXTJS",
     "GIT",
-    "JAVA",
+    "NODEJS",
+    "MONGODB"
   ].includes(skill.name)
 );
 
 export const familiarTech = skillsList.filter((skill) =>
-  ["BOOTSTRAP","C", "NODEJS", "SQL","POSTMAN", "PYTHON","LANGCHAIN", "TYPESCRIPT"].includes(
+  ["BOOTSTRAP","C", "SQL","POSTMAN", "PYTHON","LANGCHAIN", "TYPESCRIPT"].includes(
     skill.name
   )
 );

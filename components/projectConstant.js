@@ -3,9 +3,29 @@ import letsChatImg from "@/public/images/code_icon/chatapp.png";
 import bookRecImg from "@/public/images/bookRec.jpg";
 import ramayanImg from "@/public/images/ramayanImg.png";
 import netflixImg from "@/public/images/code_icon/netflix.png"
+import yourplace from "@/public/images/code_icon/yourplace.png"
 
 export const projectsData = [
 
+  {
+    title: "YourPlace",
+    backgroundImg: yourplace,
+    projectUrl: "https://your-place.onrender.com/",
+    githubUrl:"https://github.com/sDEV-eloper/your-place",
+    tech: [
+      //why don't here is an array of name? ans: dues due to i want to add their logo in future for each tech skills thats why
+        {name:"MERN"},
+        {name: "Tailwind CSS"},
+        {name: "React Router"},
+        {name: "Redux Toolkit"},
+        {name: "Firebase"},
+      ],
+
+        features: [
+           "Authentication" , "Validation", "CRUD Operation for Host/Owner", "Token based Authorization" , "MongoDB database"
+        ]
+   
+  },
   {
     title: "Netflix-gpt",
     backgroundImg: netflixImg,
