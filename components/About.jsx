@@ -41,12 +41,10 @@ const About = () => {
                   </span>
                 </p>
                 <p className="border text-sm rounded-lg p-2 font-medium  bg-gray-200 my-3 ">
-                  <FaLaptopCode />I am currently participating in a virtual
-                  internship at NetStack as a Frontend Developer, where I am
-                  working on building an automated dropshipping product.
+                  <FaLaptopCode />6-month remote internship at NetStack as a Frontend Developer.
                   <span className="flex gap-2 items-center text-orange-500">
                     <SlCalender />
-                    <span>May 2023 - Ongoing</span>
+                    <span>May 2023 - Oct 2023</span>
                   </span>
                 </p>
               </div>
